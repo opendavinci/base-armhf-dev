@@ -33,8 +33,10 @@ RUN apt-get update -y && \
     ant \
     ccache \
     cmake \
-    default-jdk \
-    default-jre \
+    openjdk-8-jdk=8u77-b03-3ubuntu3 \
+    openjdk-8-jre=8u77-b03-3ubuntu3 \
+    openjdk-8-jdk-headless=8u77-b03-3ubuntu3 \
+    openjdk-8-jre-headless=8u77-b03-3ubuntu3 \
     ffmpeg \
     freeglut3-dev \
     git \
